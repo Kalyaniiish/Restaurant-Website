@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('ambiance.AVIF') no-repeat center center/cover;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+        .navigation ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .navigation ul li a {
+            color: white;
+           
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 10px;
+            text-align: center;
+        }
+        .box {
+            background-size: cover;
+            background-position: center;
+            padding: 80px;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            
+            color: black;
+            font-weight: bold;
+        }
+        .menu-box { background: url('menu.JPEG') no-repeat center center/cover; }
+        .ambiance-box { background: url('ambiance.JPEG') no-repeat center center/cover; }
+        .chefs-box { background: url('chef.JPEG') no-repeat center center/cover; }
+        .jobs-box { background: url('job.JPEG') no-repeat center center/cover; }
+        .bookings-box { background: url('book.WEBP') no-repeat center center/cover; }
+       
+      form input, form button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+        
+        }
+        footer {
+            background: url('footer-bg.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="review.html">Reviews</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="box menu-box">Menu</div>
+        <div class="box ambiance-box">Ambiance</div>
+        <div class="box chefs-box">Our Chefs</div>
+        <div class="box jobs-box"> Jobs</div>
+        <div class="box bookings-box"><a href="booking.html"> Bookings</a></div>
+            </section>
+
+    
+
+    
+
+    <footer id="contact">
+        <p>Email: contact@restaurant.com | Phone: 123-456-7890</p>
+    </footer>
+</body>
+</html>
