@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | The Urban Tandoor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff5f8;
+  color: #333;
+}
+
+/* Header (reused from menu page) */
+header {
+  background-color: #1f1f1f;
+  padding: 15px 30px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+}
+
+.navbar nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar nav a.active {
+  border-bottom: 2px solid #ff7aa2;
+}
+
+/* About Section */
+.about-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-section h2 {
+  font-size: 32px;
+  color: #ff5e8e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #ff5e8e;
+  font-weight: bold;
+}
+
+.slogan {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 30px;
+}
+</style>
+<body>
+  
+  <header>
+    <div class="navbar">
+      <h1>The Urban Tandoor</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About us</a>
+        <a href="menu.html">Menu</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <h2>About Us</h2>
+    <p>
+      <strong>Welcome to <span class="highlight">Urban Tandoor</span></strong>, where every meal is a celebration of flavor, culture, and community.
+    </p>
+    <p>
+      Born out of a passion for great food and warm hospitality, we bring together the finest ingredients, time-honored recipes, and a modern twist to create dishes that delight the senses.
+    </p>
+    <p>
+      Our chefs craft each plate with care, using locally sourced produce and authentic spices to ensure every bite is fresh and full of flavor. From our signature dishes like <span class="highlight">Wood-fired Pizzas</span> to <span class="highlight">Handcrafted Pastas</span>, there’s something on our menu for everyone.
+    </p>
+    <p>
+      <strong>Urban Tandoor</strong> is more than just a place to eat — it's a place to connect. Our team is here to serve with heart, and our space is designed to make you feel at home.
+    </p>
+    <p class="slogan">Come hungry. Leave happy.</p>
+  </section>
+</body>
+</html>

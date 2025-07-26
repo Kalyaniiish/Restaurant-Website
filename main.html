@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Urban Tandoor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 15px 30px;
+      color: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff7aa2;
+    }
+
+    .nav-links a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #ff7aa2;
+      border-bottom: 2px solid #ff7aa2;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 50px 10px;
+      text-align: center;
+    }
+
+    .box {
+      width: 250px;
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .box:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(255,122,162,0.2);
+    }
+    footer {
+      background: url('footer-bg.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    /* Make the entire box a clickable link */
+    .box a {
+      color: white;
+      text-decoration: none;
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0,0,0,0.4);
+      border-radius: 25px;
+      transition: background-color 0.3s;
+    }
+
+    .box a:hover {
+      background-color: rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <h1 class="logo">The Urban Tandoor</h1>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About us</a>
+        <a href="menu.html">Menu</a>
+        <a href="review.html">Reviews</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="box menu-box"><a href="menu.html">Menu</a></div>
+    <div class="box ambiance-box"><a href="about.html">Ambiance</a></div>
+    <div class="box chefs-box"><a href="about.html">Our Chefs</a></div>
+    <div class="box jobs-box"><a href="jobs.html">Jobs</a></div>
+    <div class="box bookings-box"><a href="booking.html">Bookings</a></div>
+  </section>
+
+  <footer id="contact">
+    <p>Email: contact@restaurant.com | Phone: 123-456-7890</p>
+  </footer>
+
+</body>
+</html>
+
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu | The Urban Tandoor</title>
+</head>
+<style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffafc;
+  color: #333;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 15px 30px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+}
+
+.navbar nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar nav a.active {
+  border-bottom: 2px solid #ff7aa2;
+}
+
+
+.menu-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 32px;
+  color: #ff5e8e;
+  margin-bottom: 30px;
+}
+
+.menu-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.menu-box {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.menu-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.menu-box h3 {
+  font-size: 24px;
+  color: #ff5e8e;
+}
+
+.menu-box p {
+  font-size: 14px;
+}
+
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.menu-list li {
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #ffe6ee;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+</style>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>The Urban Tandoor</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-boxes">
+      <a href="starters.html" class="menu-box">
+        <h3>Starters</h3>
+        <p>Begin your meal with our tasty appetizers</p>
+      </a>
+      <a href="maincourse.html" class="menu-box">
+        <h3>Main Course</h3>
+        <p>Delicious dishes that satisfy your cravings</p>
+      </a>
+      <a href="dessert.html" class="menu-box">
+        <h3>Dessert</h3>
+        <p>Sweet treats to end your meal perfectly</p>
+      </a>
+    </div>
+  </section>
+</body>
+</html>

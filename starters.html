@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Starters | The Urban Tandoor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff5f8;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 15px 30px;
+      color: white;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar h1 {
+      font-size: 24px;
+    }
+
+    .navbar nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .navbar nav a.active {
+      border-bottom: 2px solid #ff7aa2;
+    }
+
+    .menu-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu-section h2 {
+      color: #ff5e8e;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .menu-item {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.03);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .menu-item h3 {
+      font-size: 22px;
+      color: #ff5e8e;
+      margin: 10px 0 5px;
+    }
+
+    .menu-item p {
+      font-size: 16px;
+      color: #444;
+      margin: 5px 0;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #cc0033;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>The Urban Tandoor</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="menu.html">Menu</a>
+        <a href="starter.html" class="active">Starters</a>
+        <a href="maincourse.html">Main Course</a>
+        <a href="dessert.html">Dessert</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="menu-section">
+    <h2>Our Starters</h2>
+    <div class="menu-grid">
+
+      <div class="menu-item">
+        <img src="paneertikka.jpg" alt="Paneer Tikka">
+        <h3>Paneer Tikka</h3>
+        <p>Grilled cottage cheese cubes marinated with spices.</p>
+        <p class="price">₹220</p>
+      </div>
+
+      <div class="menu-item">
+        <img src="vegmanchurian.jpg" alt="Veg Manchurian">
+        <h3>Veg Manchurian</h3>
+        <p>Fried veggie balls in a spicy Indo-Chinese sauce.</p>
+        <p class="price">₹200</p>
+      </div>
+
+      <div class="menu-item">
+        <img src="harabharakabab.jpg" alt="Hara Bhara Kebab">
+        <h3>Hara Bhara Kebab</h3>
+        <p>Spinach and green peas patties served with mint chutney.</p>
+        <p class="price">₹180</p>
+      </div>
+
+      <div class="menu-item">
+        <img src="masalapapad.jpg" alt="Masala Papad">
+        <h3>Masala Papad</h3>
+        <p>Crispy papad topped with onions, tomatoes & masala.</p>
+        <p class="price">₹80</p>
+      </div>
+
+      <div class="menu-item">
+        <img src="springrolls.jpg" alt="Spring Rolls">
+        <h3>Spring Rolls</h3>
+        <p>Stuffed crispy rolls with vegetables & sauces.</p>
+        <p class="price">₹160</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
